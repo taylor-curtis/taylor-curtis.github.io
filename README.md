@@ -19,7 +19,7 @@ I'm a versatile Site Reliability Engineer (SRE) with a solid background in manag
 
 ### Professional Experience
 
-Vivun Inc. Aug 2022 - Present
+Vivun Inc. Aug 2022 - Aug 2024
 
 ##### Site Reliability Engineer
 
