@@ -4,124 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Taylor Curtis</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Add Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
         <div class="row">
             <div class="col text-center">
                 <h1>Taylor Curtis</h1>
-                <a href="https://www.linkedin.com/in/taylor-curtis-b37249ab/" target="_blank">
-                    <img src="https://media.licdn.com/dms/image/D5603AQFD-uAhEjDz9Q/profile-displayphoto-shrink_400_400/0/1695861769950?e=1728518400&v=beta&t=QkXFmDkB3TUZ_C1mZYJb5LclULpUXJmQ7Snp98ceMCU" alt="LinkedIn Profile Photo" class="rounded-circle mb-3" width="100">
-                </a>
-                <p>
-                    <span class="mx-3">|</span>
-                    <i class="fas fa-envelope me-2"></i> taylor@taylorcurtis.dev
-                    <span class="mx-3">|</span>
-                    <a href="https://github.com/taylor-curtis" target="_blank" class="text-decoration-none text-reset me-2">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <span class="mx-3">|</span>
-                    <a href="https://www.linkedin.com/in/taylor-curtis-b37249ab/" target="_blank" class="text-decoration-none text-reset ms-2">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                    </a>
-                    <span class="mx-3">|</span>
-                    <i class="fas fa-map-marker-alt me-2"></i> Remote, CA
-                    <span class="mx-3">|</span>
-                </p>
             </div>
         </div>
-                
-        <div class="mt-4">
-            <h3>Summary</h3>
-            <p>
-                I'm a versatile Site Reliability Engineer (SRE) with a solid background in managing cloud infrastructure, automating processes, and ensuring security. I enjoy tackling tough challenges and coming up with creative solutions to boost developer productivity and system reliability. I’m skilled at operational excellence in fast-paced environments. I'm passionate about using automation to simplify life and strengthen security. I work with a variety of tools and technologies, including AWS, GCP, and scripting languages like Ruby, Python, and Bash, to build strong, scalable systems... (or a frankenscript for the one off fire drill 😜).
-            </p>
 
-            <h3>Skills</h3>
-            <ul class="list-group mb-4">
-                <li class="list-group-item">Cloud Infrastructure Management - (AWS, GCP, Azure)</li>
-                <li class="list-group-item">Continuous Integration and Continuous Delivery (CI/CD) - (Harness.io, CircleCI, Gitlab, Github Actions)</li>
-                <li class="list-group-item">Infrastructure as Code - (Terraform, Terraform Cloud)</li>
-                <li class="list-group-item">Automation & Tooling - (Ruby, Python, Node.js, Bash, as well as codeless technologies like Workato)</li>
-                <li class="list-group-item">Security Technologies - (Crowdstrike, Palo Alto VPN, Okta, MDM)</li>
-                <li class="list-group-item">System Monitoring, Incident Response, and Incident Management - (Opsgenie, Sumo Logic, Blameless, Splunk, Observe)</li>
-                <li class="list-group-item">Project Management Tools - (Confluence, Jira, Atlassian Access)</li>
-                <li class="list-group-item">Containerization - (Kubernetes and Docker)</li>
-                <li class="list-group-item">OS Administration - (Linux, Windows, Mac)</li>
-            </ul>
+        <hr>
 
-            <h3>Professional Experience</h3>
+        <div class="row mt-4">
+            <div class="col">
+                <h2>Professional Experience</h2>
 
-            <div class="card mb-3">
-                <div class="card-header bg-light text-dark">
-                    Vivun Inc. <span class="float-end">Aug 2022 - Aug 2024</span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Site Reliability Engineer</h5>
-                    <p class="card-text"><em>Remote, US</em></p>
+                <div class="mb-5">
+                    <h3>Vivun</h3>
+                    <p><strong>Site Reliability Engineer</strong> ・ Aug 2022 – Aug 2024 ・ Remote, CA</p>
                     <ul>
-                        <li>Fulfilled the role of primary SRE for a dynamic team, focusing on operational, development, and troubleshooting needs, enhancing Kubernetes management using AWS EKS and AWS Fargate.</li>
-                        <li>Transitioned CircleCI pipelines to Harness.io, driving significant advancements in CI/CD pipeline operations.</li>
-                        <li>Created tooling and CI/CD solutions in Ruby, Python, and Node.js.</li>
+                        <li>Designed, deployed, and maintained CI/CD pipelines using Harness.io and CircleCI, streamlining the software development lifecycle and improving efficiency.</li>
+                        <li>Managed AWS infrastructure with Terraform and Kubernetes (Helm Charts), optimizing deployments and ensuring scalability across multiple environments.</li>
+                        <li>Acted as embedded SRE for a fast-paced SaaS product team, responsible for:
+                            <ul>
+                                <li>Architecting scalable AWS infrastructure to meet evolving product and performance needs.</li>
+                                <li>Reducing developer downtime and accelerating feature delivery by optimizing build and deployment processes.</li>
+                                <li>Creating and managing ephemeral environments for seamless development, testing, and scaling.</li>
+                            </ul>
+                        </li>
+                        <li>Led cloud resource rightsizing efforts, achieving 50% cost savings on EKS and 30% savings on RDS monthly.</li>
+                        <li>Developed custom tooling to migrate secrets from Enterprise HashiCorp Vault to Open Source Vault, delivering $10k in annual licensing and support savings.</li>
+                        <li>Enhanced security and compliance by automating infrastructure as code (IaC) with Terraform, ensuring consistent security policies across all environments.</li>
                     </ul>
                 </div>
-            </div>
 
-            <div class="card mb-3">
-                <div class="card-header bg-light text-dark">
-                    Procore Technologies <span class="float-end">Oct 2021 - Jul 2022</span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Site Reliability Engineer</h5>
-                    <p class="card-text"><em>Remote, US</em></p>
+                <div class="mb-5">
+                    <h3>Procore Technologies</h3>
+                    <p><strong>Site Reliability Engineer</strong> ・ Oct 2021 – July 2022 ・ Remote, CA</p>
+                    <p>Promoted from Information Systems Engineer to Site Reliability Engineer after demonstrating excellence in managing Okta identity systems, optimizing AWS infrastructure, and building innovative automation.</p>
                     <ul>
-                        <li>Championed the adoption of Terraform Cloud, advancing infrastructure-as-code methodologies across the engineering landscape.</li>
-                        <li>Engineered a self-service AWS IAM solution, empowering team autonomy over security roles, crucial for Terraform's AWS provider.</li>
-                        <li>Played a pivotal role in the AWS SSO integration and IAM policy reinforcement.</li>
-                        <li>Authored Terraform scripts for global resource management, streamlining deployment processes.</li>
-                        <li>Enhanced Terraform workflow efficiency with Atlantis, focusing on automating pull request operations.</li>
-                        <li>Actively participated in the on-call roster, using tools like Opsgenie and Sumo Logic for real-time system reliability and incident management.</li>
+                        <li>Core contributor to the Site Reliability Cloud Provisioning team, responsible for designing and supporting infrastructure pipelines using Terraform Cloud.</li>
+                        <li>Participated in Site Reliability On-Call Rotation, mitigating security incidents, resolving product outages, and addressing deployment failures to ensure service reliability.</li>
+                        <li>Created a self-service AWS IAM role workflow, reducing manual intervention and approval delays by streamlining role requests with automated security approvals.</li>
+                        <li>Refactored Terraform modules to enhance simplicity, update provider integrations, and improve infrastructure scalability and maintainability.</li>
+                    </ul>
+
+                    <p><strong>Information Systems Engineer</strong> ・ July 2017 – Oct 2021 ・ Remote, CA</p>
+                    <ul>
+                        <li>Led the administration and optimization of Okta identity and access management (SSO, MFA), securing user access through automated user lifecycle processes.</li>
+                        <li>Architected and managed AWS cloud infrastructure using Terraform, optimizing resources, and integrating CI/CD pipelines for automated scaling and provisioning.</li>
+                        <li>Improved network infrastructure security and performance by managing VPC configurations, security groups, and load balancers.</li>
+                        <li>Reduced manual IT operations by 60% through automation, freeing up engineering resources for high-priority projects.</li>
+                        <li>Enhanced system visibility and response times by 50% with the deployment of monitoring and alerting tools.</li>
                     </ul>
                 </div>
-            </div>
 
-            <div class="card mb-3">
-                <div class="card-header bg-light text-dark">
-                    Procore Technologies <span class="float-end">Jul 2017 - Oct 2021</span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Information Systems Engineer</h5>
-                    <p class="card-text"><em>Remote, US</em></p>
-                    <ul>
-                        <li>Onboarded Okta and orchestrated high-level integrations, managing system synchronizations for a seamless security landscape.</li>
-                        <li>Rolled out Palo Alto Global VPN solution.</li>
-                        <li>Directed Crowdstrike's detection and response initiatives, establishing robust policies for threat prevention.</li>
-                        <li>Administered Confluence, Jira, and Atlassian Access, ensuring secure and efficient project management tools.</li>
-                        <li>Managed the integration and administration of over 150 SaaS applications, significantly bolstering the company's software infrastructure.</li>
-                        <li>Advocated for infrastructure as code (IaC) with Terraform, leading to enhanced security and operational efficiencies.</li>
-                        <li>Conducted forensic investigations across multiple operating systems, bolstering the company’s incident response capabilities.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card mb-3">
-                <div class="card-header bg-light text-dark">
-                    Apple <span class="float-end">Jul 2011 - Oct 2016</span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Genius</h5>
-                    <p class="card-text"><em>Santa Barbara, CA</em></p>
-                    <ul>
-                        <li>Provided expert technical support, underlining security risk identification and mitigation for a broad range of devices.</li>
-                    </ul>
-                </div>
             </div>
         </div>
+
+        <hr>
+
+        <div class="row mt-4">
+            <div class="col">
+                <h2>Skills</h2>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item">Cloud Platforms & Tools: AWS (EC2, EKS, RDS, VPC), Docker, Kubernetes (Helm Charts), Terraform, HashiCorp Vault</li>
+                    <li class="list-group-item">DevOps & CI/CD: Harness.io, CircleCI, Terraform Cloud, GitLab, Ephemeral Environment Management</li>
+                    <li class="list-group-item">Infrastructure & Automation: Infrastructure as Code (IaC), Automated Provisioning, Resource Rightsizing, AWS IAM Management, Self-Service Infrastructure Workflows</li>
+                    <li class="list-group-item">Security & Compliance: Okta Identity Management (SSO, MFA), AWS Security & Compliance, Monitoring and Alerting, Incident Management</li>
+                    <li class="list-group-item">Cost Optimization: Cloud Cost Optimization (EKS, RDS), Resource Analysis</li>
+                    <li class="list-group-item">Other Tools: Sumologic, Splunk, Apple Device Management</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row mt-4">
+            <div class="col">
+                <h2>Notable Achievements</h2>
+                <ul>
+                    <li>Delivered 50% cost savings on EKS and 30% on RDS by leading cloud resource rightsizing efforts.</li>
+                    <li>$10k in annual savings achieved by migrating secrets management from Enterprise HashiCorp Vault to Open Source Vault.</li>
+                    <li>60% reduction in manual IT operations through automation and scripting, enabling engineering to focus on higher-impact projects.</li>
+                </ul>
+            </div>
+        </div>
+
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
