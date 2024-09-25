@@ -1,65 +1,51 @@
-# Taylor Curtis
-taylor@taylorcurtis.dev | [GitHub](https://github.com/taylor-curtis) | [LinkedIn](https://www.linkedin.com/in/taylor-curtis-b37249ab/) | Remote, CA 
+# Taylor Curtis  
+---
+## Professional Experience  
+### **Vivun**  
+**Site Reliability Engineer** ・ Aug 2022 – Aug 2024 ・ Remote, CA  
 
-### Summary
+- Designed, deployed, and maintained CI/CD pipelines using Harness.io and CircleCI, streamlining the software development lifecycle and improving efficiency.  
+- Managed AWS infrastructure with Terraform and Kubernetes (Helm Charts), optimizing deployments and ensuring scalability across multiple environments.  
+- Acted as embedded SRE for a fast-paced SaaS product team, responsible for:  
+  - Architecting scalable AWS infrastructure to meet evolving product and performance needs.  
+  - Reducing developer downtime and accelerating feature delivery by optimizing build and deployment processes.  
+  - Creating and managing ephemeral environments for seamless development, testing, and scaling.  
+- Led cloud resource rightsizing efforts, achieving 50% cost savings on EKS and 30% savings on RDS monthly.  
+- Developed custom tooling to migrate secrets from Enterprise HashiCorp Vault to Open Source Vault, delivering $10k in annual licensing and support savings.  
+- Enhanced security and compliance by automating infrastructure as code (IaC) with Terraform, ensuring consistent security policies across all environments.  
 
-I'm a versatile Site Reliability Engineer (SRE) with a solid background in managing cloud infrastructure, automating processes, and ensuring security. I enjoy tackling tough challenges and coming up with creative solutions to boost developer productivity and system reliability. I'm skilled at operational excellence in fast-paced environments. I'm passionate about using automation to simplify life and strengthen security. I work with a variety of tools and technologies, including AWS, GCP, and scripting languages like Ruby, Python, and Bash, to build strong, scalable systems... (or a frankenscript for the one off fire drill 😜).
+### **Procore Technologies**  
+**Site Reliability Engineer** ・ Oct 2021 – July 2022 ・ Remote, CA  
 
-### Skills
+- Promoted from Information Systems Engineer to Site Reliability Engineer after demonstrating excellence in managing Okta identity systems, optimizing AWS infrastructure, and building innovative automation.  
+- Core contributor to the Site Reliability Cloud Provisioning team, responsible for designing and supporting infrastructure pipelines using Terraform Cloud.  
+- Participated in Site Reliability On-Call Rotation, mitigating security incidents, resolving product outages, and addressing deployment failures to ensure service reliability.  
+- Created a self-service AWS IAM role workflow, reducing manual intervention and approval delays by streamlining role requests with automated security approvals.  
+- Refactored Terraform modules to enhance simplicity, update provider integrations, and improve infrastructure scalability and maintainability.  
 
-* Cloud Infrastructure Management - (AWS, GCP, Azure)
-* Continuous Integration and Continuous Delivery (CI/CD) - (Harness.io, CircleCI, Gitlab, Github Actions)
-* Infrastructure as Code - (Terraform, Terraform Cloud)
-* Automation & Tooling - (Ruby, Python, Node.js, Bash, as well as codeless technologies like Workato)
-* Security Technologies - (Crowdstrike, Palo Alto VPN, Okta, MDM)
-* System Monitoring, Incident Response, and Incident Management - (Opsgenie, Sumo Logic, Blameless, Splunk, Observe)
-* Project Management Tools - (Confluence, Jira, Atlassian Access)
-* Containerization - (Kubernetes and Docker)
-* OS Administration - (Linux, Windows, Mac)
+**Information Systems Engineer** ・ July 2017 – Oct 2021 ・ Remote, CA  
 
-### Professional Experience
+- Led the administration and optimization of Okta identity and access management (SSO, MFA), securing user access through automated user lifecycle processes.  
+- Architected and managed AWS cloud infrastructure using Terraform, optimizing resources, and integrating CI/CD pipelines for automated scaling and provisioning.  
+- Improved network infrastructure security and performance by managing VPC configurations, security groups, and load balancers.  
+- Reduced manual IT operations by 60% through automation, freeing up engineering resources for high-priority projects.  
+- Enhanced system visibility and response times by 50% with the deployment of monitoring and alerting tools.  
 
-Vivun Inc. Aug 2022 - Aug 2024
+---
 
-##### Site Reliability Engineer
+## Skills  
 
-_Remote, US_
+**Cloud Platforms & Tools:** AWS (EC2, EKS, RDS, VPC), Docker, Kubernetes (Helm Charts), Terraform, HashiCorp Vault  
+**DevOps & CI/CD:** Harness.io, CircleCI, Terraform Cloud, GitLab, Ephemeral Environment Management  
+**Infrastructure & Automation:** Infrastructure as Code (IaC), Automated Provisioning, Resource Rightsizing, AWS IAM Management, Self-Service Infrastructure Workflows  
+**Security & Compliance:** Okta Identity Management (SSO, MFA), AWS Security & Compliance, Monitoring and Alerting, Incident Management  
+**Cost Optimization:** Cloud Cost Optimization (EKS, RDS), Resource Analysis  
+**Other Tools:** Sumologic, Splunk, Apple Device Management  
 
-* Fulfilled the role of primary SRE for a dynamic team, focusing on operational, development, and troubleshooting needs, enhancing Kubernetes management using AWS EKS and AWS Fargate.
-* Transitioned CircleCI pipelines to Harness.io, driving significant advancements in CI/CD pipeline operations.
-* Created tooling and CI/CD solutions in Ruby, Python, and Node.js.
+---
 
-Procore Technologies Oct 2021 - Jul 2022
+## Notable Achievements  
 
-##### Site Reliability Engineer
-
-_Remote, US_
-
-* Championed the adoption of Terraform Cloud, advancing infrastructure-as-code methodologies across the engineering landscape.
-* Engineered a self-service AWS IAM solution, empowering team autonomy over security roles, crucial for Terraform's AWS provider.
-* Played a pivotal role in the AWS SSO integration and IAM policy reinforcement.
-* Authored Terraform scripts for global resource management, streamlining deployment processes.
-* Enhanced Terraform workflow efficiency with Atlantis, focusing on automating pull request operations.
-* Actively participated in the on-call roster, using tools like Opsgenie and Sumo Logic for real-time system reliability and incident management.
-
-Procore Technologies Jul 2017 - Oct 2021
-
-##### Information Systems Engineer
-
-_Remote, US_
-
-* Onboarded Okta and orchestrated high-level integrations, managing system synchronizations for a seamless security landscape.
-* Rolled out Palo Alto Global VPN solution.
-* Directed Crowdstrike's detection and response initiatives, establishing robust policies for threat prevention.
-* Administered Confluence, Jira, and Atlassian Access, ensuring secure and efficient project management tools.
-* Managed the integration and administration of over 150 SaaS applications, significantly bolstering the company's software infrastructure.
-* Advocated for infrastructure as code (IaC) with Terraform, leading to enhanced security and operational efficiencies.
-* Conducted forensic investigations across multiple operating systems, bolstering the company's incident response capabilities.
-
-Apple Jul 2011 - Oct 2016
-
-##### Genius
-
-_Santa Barbara, CA_
-
-* Provided expert technical support, underlining security risk identification and mitigation for a broad range of devices.
+- Delivered 50% cost savings on EKS and 30% on RDS by leading cloud resource rightsizing efforts.  
+- $10k in annual savings achieved by migrating secrets management from Enterprise HashiCorp Vault to Open Source Vault.  
+- 60% reduction in manual IT operations through automation and scripting, enabling engineering to focus on higher-impact projects.  
